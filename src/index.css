@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  background-color: lightsteelblue;
+}
+
+.nav-content {
+  background-color: black;
+  height: 60px;
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-content h1 {
+  color: rgb(6, 213, 175);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 450px;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.nav-content div a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+
+.home-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+#title {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+.home-content div {
+  border-bottom: solid 1px black;
+  padding: 20px;
+}
+
+.home-content div:hover {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 5px 2px 20px rgb(101, 101, 101);
+  font-size: x-large;
+}
+
+.home-content div h1:hover {
+  color: crimson;
+}
+
+.series-list button {
+  background-color: lightpink;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 90px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.series-list button:hover {
+  background-color: lightseagreen;
+}
+
+.nav-content div a:hover {
+  text-decoration: underline;
+}
+
+.home-content a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*---------Addnewseries-----------*/
+
+.new-series {
+  width: 800px;
+  height: 600px;
+  border: 1px solid black;
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+  left: 365px;
+  background-color: white;
+
+}
+
+.new-series h1 {
+  margin-top: 10px;
+  margin-left: 235px;
+  color: crimson;
+}
+
+.new-series form {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 200px 400px;
+  row-gap: 10px;
+  column-gap: 10px;
+  align-items: center;
+  margin-left: 145px;
+
+}
+
+.new-series button {
+  display: block;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.new-series form input {
+  width: 300px;
+  height: 40px;
+}
+
+.new-series form input::placeholder {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+#addmovie {
+  font-size: 15px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#addmovie:hover {
+  background-color: green;
+  color: black;
+  transition: 3ms;
+}
+
+
+
+
+
+/*-------------Seriesdetail--------------*/
+
+
+.series-detail {
+  max-width: 900px;
+  margin: auto;
+}
+
+#detail {
+  background-color: white;
+  margin-top: 20px;
+  height: 100%;
+}
+
+#detail button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  
+}
+
+#poster {
+  width: 900px;
+  height: 500px;
+}
+
+/*------------Notfound.js------------*/
+#notfound h1{
+  color: red;
+}
+
